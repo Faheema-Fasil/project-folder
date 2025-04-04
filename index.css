@@ -1,0 +1,779 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'New Rail Alphabet', sans-serif;
+}
+
+.website-container {
+    background: linear-gradient(180deg, rgba(243, 243, 243, 0.75) 0%, rgba(184, 184, 184, 0.8) 59.38%, rgba(243, 243, 243, 0.25) 100%);
+
+}
+
+/* nav */
+.nav-1 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: #322D2D;
+    padding: 10px 0;
+
+}
+
+.nav-2 {
+    width: 1456.2547607421875;
+    height: 72.81273651123047;
+    border-bottom-width: 1.01px;
+    padding-right: 64.72px;
+    padding-left: 64.72px;
+    top: 48.54px;
+
+}
+
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-2 .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-2 .menu select,
+.nav-2 .menu a {
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: inherit;
+    font-size: 1em;
+}
+
+.nav-2 .search {
+    width: 224.87px;
+    /* Rounded for cleaner CSS */
+    height: 41.27px;
+    /* Rounded for cleaner CSS */
+    display: flex;
+    /* Use flexbox to apply the gap */
+    gap: 12px;
+}
+
+.nav-2 .search button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-2 .arrow {
+    background: linear-gradient(93.63deg, #CAA648 -0.61%, #CAA648 10.09%, #D5B147 25.19%, #E4C267 46.69%, #E2C065 78.94%, #DBB95E 90.77%, #D0AE52 98.29%, #C09F41 104.74%, #BB9A3C 106.89%) !important;
+    width: 174.87px;
+    height: 41.27px;
+    border-bottom-width: 1.01px;
+    padding-top: 12.14px;
+    padding-right: 24.27px;
+    padding-bottom: 12.14px;
+    padding-left: 24.27px;
+    border-radius: 505.64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    /* background: linear-gradient(93.63deg, #CAA648 -0.61%, #CAA648 10.09%, #D5B147 25.19%, #E4C267 46.69%, #E2C065 78.94%, #DBB95E 90.77%, #D0AE52 98.29%, #C09F41 104.74%, #BB9A3C 106.89%);
+
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    */
+    transition: background-color 0.3s ease;
+}
+
+.nav-2 .arrow:hover {
+    background-color: #ffeb3b;
+}
+
+.home .container {
+    display: flex;
+    width: 90%;
+    /* max-width: 1200px; */
+    margin: 20px auto;
+
+
+
+
+}
+
+.left-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 645.9998168945312;
+    height: 371;
+    gap: 40px;
+
+}
+
+.rating {
+    /* background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    margin-bottom: 20px; */
+    width: 518;
+    height: 46;
+    border-radius: 10000px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    gap: 8px;
+    border-width: 0.5px;
+    background: linear-gradient(90.05deg, rgba(255, 255, 255, 0.36) 0.04%, rgba(252, 252, 252, 0.12) 102.54%);
+
+
+}
+
+.rating span {
+    width: 150;
+    height: 26;
+    border-radius: 100px;
+    padding-top: 3px;
+    padding-right: 9px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    gap: 8px;
+
+    font-family: New Rail Alphabet;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+    background: #FFFFFFB2;
+
+
+}
+
+.rating span span {
+
+    color: #ff9800;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.stats {
+
+    width: 572px;
+    height: 106px;
+    display: flex;
+    /* Use flexbox to apply the gap */
+    gap: 24px;
+}
+
+.stat {
+    width: 183.5px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+
+}
+
+.stat h2 {
+    font-family: 'New Rail Alphabet', sans-serif;
+    /* Add fallback font */
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 128%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    -webkit-text-fill-color: transparent;
+    /* Make the text transparent */
+    -webkit-background-clip: text;
+    /* Clip the background to the text */
+    background-clip: text;
+    /* Standard property for background-clip */
+    background-image: linear-gradient(93.63deg, #CAA648 -0.61%, #CAA648 10.09%, #D5B147 25.19%, #E4C267 46.69%, #E2C065 78.94%, #DBB95E 90.77%, #D0AE52 98.29%, #C09F41 104.74%, #BB9A3C 106.89%);
+    /* The gradient */
+    font-weight: 700;
+    /* Example font-weight */
+    font-size: 72px;
+
+}
+
+.stat h2 span {
+    width: 37px;
+    height: 17px;
+    font-family: 'New Rail Alphabet', sans-serif;
+    /* Add fallback font */
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 128%;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.stat p {
+    width: 157px;
+    height: 38px;
+    font-family: 'New Rail Alphabet', sans-serif;
+    /* Add fallback font */
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 104%;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    font-size: 0.9em;
+}
+
+.shop-button {
+    background: linear-gradient(93.63deg, #CAA648 -0.61%, #CAA648 10.09%, #D5B147 25.19%, #E4C267 46.69%, #E2C065 78.94%, #DBB95E 90.77%, #D0AE52 98.29%, #C09F41 104.74%, #BB9A3C 106.89%) !important;
+    width: 174.87px;
+    height: 41.27px;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-section {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.alcami-products {
+    position: relative;
+    display: flex;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 100%; Make it responsive */
+}
+
+.Alcami-Brown,
+.Alcami-green {
+    position: relative;
+    z-index: 11;
+    width: 60%;
+    /* Adjust image size responsively */
+    margin: 0 -15px;
+    /* Adjust overlap */
+}
+
+.Alcami-white {
+    z-index: 12;
+    position: absolute;
+    display: flex;
+    max-width: 90%;
+    top: 1.2%;
+
+}
+
+.ingredient {
+    position: absolute;
+    max-width: 100%;
+}
+
+
+.astragalus {
+    width: 237.59px;
+    /* Rounded for cleaner CSS */
+    height: 182.51px;
+    /* Rounded for cleaner CSS */
+    position: absolute;
+    /* Necessary for top and left positioning */
+    top: 19.48px;
+    left: -35.91px;
+    transform: rotate(-1.27deg);
+}
+
+.cordyceps {
+    z-index: 2;
+    width: 236.2510528564453;
+    height: 152.21798706054688;
+    top: 266.89px;
+    left: -28.11px;
+
+}
+
+.gynostemma {
+
+    width: 203.16px;
+    /* Rounded for cleaner CSS */
+    height: 230.81px;
+    /* Rounded for cleaner CSS */
+    position: absolute;
+    /* Necessary for top and left positioning */
+    top: 177.48px;
+    left: 430px;
+    transform: rotate(355deg);
+}
+
+.he-shou-wu {
+    width: 135.2548370361328;
+    height: 87.0544204711914;
+    top: 317.98px;
+    left: 119.2px;
+
+}
+
+.lions-mane {
+    width: 120px;
+    position: absolute;
+    z-index: 1;
+    top: 140.6px;
+    left: -9px;
+    transform: rotate(1.24deg);
+
+}
+
+.mukuna {
+    z-index: 4;
+    width: 176.21px;
+    /* Rounded for cleaner CSS */
+    height: 126.76px;
+    /* Rounded for cleaner CSS */
+    position: absolute;
+    /* Necessary for top and left positioning */
+    top: 300.13px;
+    left: 213.53px;
+}
+
+.polygala {
+
+    width: 135.70px;
+    /* Rounded for cleaner CSS */
+    height: 101.31px;
+    /* Rounded for cleaner CSS */
+    position: absolute;
+    /* Necessary for top and left positioning */
+    top: 52.09px;
+    left: 465.23px;
+
+}
+
+.reishi {
+    z-index: 3;
+    width: 186.42px;
+    /* Rounded for cleaner CSS */
+    height: 122.69px;
+    /* Rounded for cleaner CSS */
+    position: absolute;
+    /* Necessary for top and left positioning */
+    top: 309.33px;
+    left: 320.32px;
+}
+
+.shilajit {
+
+    width: 157px;
+    height: 112px;
+    position: absolute;
+    top: 124.75px;
+    left: 460.88px;
+}
+
+/* Bottom Section */
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+
+
+}
+
+.bottom-content {
+    border: 2px solid gold;
+    border-image-source: linear-gradient(93.63deg, #CAA648 -0.61%, #CAA648 10.09%, #D5B147 25.19%, #E4C267 46.69%, #E2C065 78.94%, #DBB95E 90.77%, #D0AE52 98.29%, #C09F41 104.74%, #BB9A3C 106.89%);
+    border-image-slice: 1;
+    border-image-repeat: repeat;
+    border-radius: 16px;
+    font-family: 'New Rail Alphabet', sans-serif;
+    /* Added fallback font */
+    font-weight: lighter;
+    font-size: 36px;
+    /* line-height: 100%; */
+    letter-spacing: -2.02px;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    /* Aligns with text if needed */
+    padding: 15px 250px;
+    /* Added padding */
+    position: absolute;
+    /* To use top and left */
+
+
+
+}
+
+@media (max-width: 1024px) {
+    .alcami-products img {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home .container {
+        flex-direction: column;
+    }
+
+    .alcami-products img {
+        max-width: 80%;
+    }
+
+    .ingredient {
+        max-width: 60px;
+    }
+
+    .left-section {
+        padding: 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+
+    .bottom-content {
+        padding: 10px 10px;
+    }
+}
+
+
+.product-container {
+    position: relative;
+    display: grid;
+
+    padding: 100px;
+    gap: 48px;
+    background: linear-gradient(180deg, rgba(243, 243, 243, 0.309) 0%, rgba(184, 184, 184, 0.149) 59.38%, rgba(243, 243, 243, 0.084) 100%);
+
+}
+
+.center-image {
+    grid-column: 1/span 2;
+}
+
+.product-info {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    width: 550;
+    height: 310.2709045410156;
+    gap: 27px;
+
+}
+
+.product-info h2 {
+    font-family: 'New Rail Alphabet', sans-serif;
+    /* Add fallback font */
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 3.03px;
+    vertical-align: middle;
+    -webkit-text-fill-color: transparent;
+    /* Make the text transparent */
+    -webkit-background-clip: text;
+    /* Clip the background to the text */
+    background-clip: text;
+    /* Standard property for background-clip */
+    background-image: linear-gradient(90deg, #9E6718 0%, #FFB545 100%);
+    /* The gradient */
+
+
+
+
+}
+
+.product-info p {
+    width: 550;
+    height: 90;
+    font-family: 'New Rail Alphabet', sans-serif;
+    /* Add fallback font */
+    font-weight: 0;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+.product-info span {
+    font-weight: lighter;
+    display: inline;
+    font-weight: 0;
+    font-size: 21px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.view-ingredients {
+    background: linear-gradient(92.57deg, #CAA648 -34.45%, #CAA648 -12.71%, #D5B147 4.32%, #E4C267 36.63%, #E2C065 85.1%, #DBB95E 102.87%, #D0AE52 114.18%, #C09F41 119.07%, #BB9A3C 127.1%);
+
+    width: 307.241455078125;
+    height: 41.270912170410156;
+    border-radius: 505.64px;
+    padding-top: 12.14px;
+    padding-right: 24.27px;
+    padding-bottom: 12.14px;
+    padding-left: 24.27px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 258.69964599609375;
+    height: 17;
+
+
+
+}
+
+
+
+
+.guarantee-section {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.guarantee-heading {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+
+.guarantee-heading h2 {
+    display: flex;
+    padding-top: 15px;
+}
+
+.guarantee-section h2 {
+    color: #d4a34a;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.guarantee-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.guarantee-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.guarantee-item img {
+    width: 35px;
+    height: 35px;
+}
+
+.guarantee-item .text {
+    display: flex;
+
+    align-items: start;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.text h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.text p {
+    font-size: 14px;
+    color: #666666;
+}
+.newspaper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:100px;
+
+
+}
+.newspaper-name{
+    display: flex;
+    align-items: center;
+    gap: 67px;
+}
+.newspaper-name img{
+    height: 25px;
+}
+
+.product-details-container {
+
+    margin: 100px;
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: flex-start; /* Align items to the top */
+
+}
+.product-detail-view {
+    display: flex; /* Use flexbox for side-by-side layout */
+/* Align items to the top */
+    position: absolute;
+
+    background: #F9F9F9;
+
+}
+
+.product-image-container {
+    flex: 1; /* Take up available space */
+    text-align: center; /* Center the product image */
+   
+}
+.product-image {
+    position: absolute; /* Needed for absolute positioning */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    top: 90px;  
+    left: 45px;
+
+
+
+    
+}
+.shadow-image{
+    position: absolute;
+    top: 430px;
+    left: 60px;
+}
+
+.ingredient-combined {
+    width: 500px;
+    height: 500px;
+    position: absolute; /* Position relative to ingredient-container */
+    top: 0;  
+    left: 0; 
+     right: 0; 
+    bottom: 0; 
+    /* /* Add top, left, right, or bottom properties to position the element */
+}
+.product-details-container-left{
+    display: flex;
+    flex-direction: row;
+}
+.slider{
+    display: flex;
+    justify-items: space-around;
+    align-items: center;
+    gap: 200px;
+
+}
+.slider button{
+    background: none;
+    border: none;
+}
+.label {
+    position: absolute;
+    font-size: 0.8em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.product-details {
+    flex: 1; /* Take up 1/2 of the space */
+    padding-left: 20px; /* Add space between image and details */
+    max-width: 50%; /* Adjust as needed */
+}
+
+.product-details h1 {
+    font-size: 24px;
+}
+
+.product-details p {
+    font-size: 16px;
+}
+
+.flavors {
+    display: flex;
+    gap: 20px;
+}
+
+.flavor img {
+    width: 100px;
+}
+
+.pricing-section {
+    margin-top: 20px;
+}
+
+.pricing-option {
+    margin-bottom: 15px;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.certifications {
+    margin-top: 20px;
+}
+
+.certifications span {
+    display: inline-block;
+    margin-right: 10px;
+}
